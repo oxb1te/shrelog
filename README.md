@@ -1,4 +1,4 @@
-<h1>Log File Cleaner and Analyzer</h1>
+<h1>Shrelog</h1>
 
 <h2>Introduction</h2>
 
