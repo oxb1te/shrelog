@@ -2,10 +2,28 @@
 
 <h2>Введение</h2>
 
-<p>Этот скрипт используется для удаления конфиденциальных файлов журнала и чтения конфиденциальных строк в журналах безопасности.
+<p>Этот скрипт используется для удаления конфиденциальных файлов журнала и чтения конфиденциальных строк в журналах безопасности.</p>
+<h2>Удаляет безвозвратно следующие логи, файлы и директории:</h2>
+
+```
+~/.bash_history     ~/.viminfo            ~/.mysql_history
+~/.zsh_history      ~/.python_history     ~/.psql_history
+~/.nano_history     ~/.node_repl_history  ~/.wget-hsts
+~/.cache/chromium   ~/.mozilla/firefox    ~/.mozilla/firefox
+
+/var/log/secure
+/var/log/syslog
+/var/log/apache2/access.log
+/var/log/apache/error.log
+/var/log/nginx/access.log
+/var/log/nginx/error.log
+/var/log/httpd/access_log
+/var/log/httpd/error_log
+```
+
 <h2>Требования</h2>
 
-<p>Для этого скрипта требуется, чтобы в вашей системе была установлена команда <code>shred</code>. Если он не установлен, скрипт отобразит сообщение об ошибке и завершит работу.</p>
+<p>Для этого скрипта требуется, чтобы в вашей системе была установлена команда <a href="https://phoenixnap.com/kb/shred-linux">shred</a>. Если он не установлен, скрипт отобразит сообщение об ошибке и завершит работу.</p>
 
 <h2>Установка</h2>
 
