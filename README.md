@@ -1,29 +1,38 @@
 <h1>Shrelog</h1>
 
-<h2>Introduction</h2>
+<h2>Введение</h2>
 
-<p>This script is used to delete sensitive log files and read sensitive strings in security-based logs. 
-<h2>Requirements</h2>
+<p>Этот скрипт используется для удаления конфиденциальных файлов журнала и чтения конфиденциальных строк в журналах безопасности.
+<h2>Требования</h2>
 
-<p>This script requires the <code>shred</code> command to be installed on your system. If it's not installed, the script will display an error message and exit.</p>
+<p>Для этого скрипта требуется, чтобы в вашей системе была установлена команда <code>shred</code>. Если он не установлен, скрипт отобразит сообщение об ошибке и завершит работу.</p>
 
-<h2>Usage</h2>
+<h2>Установка</h2>
 
-<p>When you run the script, you will be presented with a menu to select an option:</p>
+```
+sudo apt-get install git shred -y
+git clone https://github.com/r3x08/shrelog
+cd shrelog
+sudo bash shrelog.sh
+```
+
+<h2>Использование</h2>
+
+<p>Когда вы запустите скрипт, вам будет представлено меню для выбора опции:</p>
 
 <ul>
-  <li>Delete log files</li>
-  <li>Read sensitive strings in security-based logs</li>
-  <li>About</li>
-  <li>Exit</li>
+<li>Удалить файлы журнала</li>
+<li>Считывать конфиденциальные строки в журналах безопасности (сырая функция)</li>
+<li>О компании</li>
+<li>Выход</li>
 </ul>
 
-<p>You can then choose the desired option by entering the corresponding number (1-4).</p>
+<p>Затем вы можете выбрать желаемый вариант, введя соответствующий номер (1-4).</p>
 
-<h2>Contact</h2>
+<h2>Контакт</h2>
 
-<p>For more information or to contact the creator, you can visit the following link: <a href="https://github.com/r3x08">https://github.com/r3x08</a></p>
+<p>Для получения дополнительной информации или для того, чтобы связаться с создателем, вы можете перейти по следующей ссылке: <a href="https://github.com/r3x08 ">https://github.com/r3x08 </a></p>
 
-<h2>Disclaimer</h2>
+<h2>Отказ от ответственности</h2>
 
-<p>Please use this script at your own risk. The creator is not responsible for any damage or loss of data that may occur as a result of using this script.</p>
+<p>Пожалуйста, используйте этот скрипт на свой страх и риск. Создатель не несет ответственности за любой ущерб или потерю данных, которые могут произойти в результате использования этого скрипта.</p>
